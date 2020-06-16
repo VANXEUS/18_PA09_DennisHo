@@ -8,3 +8,13 @@ C:\Users\VANXEUS\Desktop\18_PA09_DennisHo\18_PA09_DennisHo\obj\Debug\18_PA09_Den
 C:\Users\VANXEUS\Desktop\18_PA09_DennisHo\18_PA09_DennisHo\obj\Debug\18_PA09_DennisHo.csproj.CoreCompileInputs.cache
 C:\Users\VANXEUS\Desktop\18_PA09_DennisHo\18_PA09_DennisHo\obj\Debug\18_PA09_DennisHo.exe
 C:\Users\VANXEUS\Desktop\18_PA09_DennisHo\18_PA09_DennisHo\obj\Debug\18_PA09_DennisHo.pdb
+C:\Users\iPR3DATOR\Documents\GitHub\18_PA09_DennisHo\18_PA09_DennisHo\18_PA09_DennisHo\bin\Debug\18_PA09_DennisHo.exe.config
+C:\Users\iPR3DATOR\Documents\GitHub\18_PA09_DennisHo\18_PA09_DennisHo\18_PA09_DennisHo\bin\Debug\18_PA09_DennisHo.exe
+C:\Users\iPR3DATOR\Documents\GitHub\18_PA09_DennisHo\18_PA09_DennisHo\18_PA09_DennisHo\bin\Debug\18_PA09_DennisHo.pdb
+C:\Users\iPR3DATOR\Documents\GitHub\18_PA09_DennisHo\18_PA09_DennisHo\18_PA09_DennisHo\obj\Debug\18_PA09_DennisHo.csprojAssemblyReference.cache
+C:\Users\iPR3DATOR\Documents\GitHub\18_PA09_DennisHo\18_PA09_DennisHo\18_PA09_DennisHo\obj\Debug\_18_PA09_DennisHo.Form1.resources
+C:\Users\iPR3DATOR\Documents\GitHub\18_PA09_DennisHo\18_PA09_DennisHo\18_PA09_DennisHo\obj\Debug\_18_PA09_DennisHo.Properties.Resources.resources
+C:\Users\iPR3DATOR\Documents\GitHub\18_PA09_DennisHo\18_PA09_DennisHo\18_PA09_DennisHo\obj\Debug\18_PA09_DennisHo.csproj.GenerateResource.cache
+C:\Users\iPR3DATOR\Documents\GitHub\18_PA09_DennisHo\18_PA09_DennisHo\18_PA09_DennisHo\obj\Debug\18_PA09_DennisHo.csproj.CoreCompileInputs.cache
+C:\Users\iPR3DATOR\Documents\GitHub\18_PA09_DennisHo\18_PA09_DennisHo\18_PA09_DennisHo\obj\Debug\18_PA09_DennisHo.exe
+C:\Users\iPR3DATOR\Documents\GitHub\18_PA09_DennisHo\18_PA09_DennisHo\18_PA09_DennisHo\obj\Debug\18_PA09_DennisHo.pdb

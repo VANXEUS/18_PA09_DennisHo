@@ -37,6 +37,7 @@
             this.txt_ConvertedAmount = new System.Windows.Forms.TextBox();
             this.btn_Convert = new System.Windows.Forms.Button();
             this.btn_Clear = new System.Windows.Forms.Button();
+            this.rdb_MalaysianRinggit = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // txt_Amount
@@ -104,8 +105,9 @@
             this.txt_ConvertedAmount.Location = new System.Drawing.Point(167, 182);
             this.txt_ConvertedAmount.Name = "txt_ConvertedAmount";
             this.txt_ConvertedAmount.ReadOnly = true;
-            this.txt_ConvertedAmount.Size = new System.Drawing.Size(180, 20);
+            this.txt_ConvertedAmount.Size = new System.Drawing.Size(218, 20);
             this.txt_ConvertedAmount.TabIndex = 6;
+            this.txt_ConvertedAmount.TextChanged += new System.EventHandler(this.txt_ConvertedAmount_TextChanged);
             // 
             // btn_Convert
             // 
@@ -127,6 +129,18 @@
             this.btn_Clear.UseVisualStyleBackColor = true;
             this.btn_Clear.Click += new System.EventHandler(this.btn_Clear_Click);
             // 
+            // rdb_MalaysianRinggit
+            // 
+            this.rdb_MalaysianRinggit.AutoSize = true;
+            this.rdb_MalaysianRinggit.Location = new System.Drawing.Point(212, 159);
+            this.rdb_MalaysianRinggit.Name = "rdb_MalaysianRinggit";
+            this.rdb_MalaysianRinggit.Size = new System.Drawing.Size(108, 17);
+            this.rdb_MalaysianRinggit.TabIndex = 4;
+            this.rdb_MalaysianRinggit.TabStop = true;
+            this.rdb_MalaysianRinggit.Text = "Malaysian Ringgit";
+            this.rdb_MalaysianRinggit.UseVisualStyleBackColor = true;
+            this.rdb_MalaysianRinggit.CheckedChanged += new System.EventHandler(this.rdb_Ringgit_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -136,6 +150,7 @@
             this.Controls.Add(this.btn_Convert);
             this.Controls.Add(this.txt_ConvertedAmount);
             this.Controls.Add(this.lbl_Value);
+            this.Controls.Add(this.rdb_MalaysianRinggit);
             this.Controls.Add(this.rdb_USD);
             this.Controls.Add(this.rdb_JPY);
             this.Controls.Add(this.lbl_SelectCurrency);
@@ -160,6 +175,7 @@
         private System.Windows.Forms.TextBox txt_ConvertedAmount;
         private System.Windows.Forms.Button btn_Convert;
         private System.Windows.Forms.Button btn_Clear;
+        private System.Windows.Forms.RadioButton rdb_MalaysianRinggit;
     }
 }
 
