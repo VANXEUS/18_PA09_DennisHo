@@ -38,11 +38,11 @@ namespace _18_PA09_DennisHo
             }
             catch (FormatException)
             {
-                MessageBox.Show("Please enter a valid amount.");
+                MessageBox.Show("Please enter numbers only.");
             }
 
             //checking for null values
-            if ((rdb_USD.Checked == false) || (rdb_JPY.Checked == false))
+            if ((rdb_USD.Checked == false) || (rdb_JPY.Checked == false) || (rdb_MalaysianRinggit.Checked == false))
                 txt_ConvertedAmount.Text = "Select at least one type of currency to convert";
 
             //convert SGD to US Dollars
@@ -61,6 +61,14 @@ namespace _18_PA09_DennisHo
 
                 txt_ConvertedAmount.Text = ConvertedValue.ToString();
             }
+
+            if(rdb_MalaysianRinggit.Checked == true)
+            {
+                AmountEntered = double.Parse(txt_Amount.Text);
+                ConvertedValue = AmountEntered * 3.01;
+
+                txt_ConvertedAmount.Text = ConvertedValue.ToString();
+            }
         }
 
         private void btn_Clear_Click(object sender, EventArgs e)
@@ -68,10 +76,21 @@ namespace _18_PA09_DennisHo
             //unchecks the radio buttons
             rdb_JPY.Checked = false;
             rdb_USD.Checked = false;
+            rdb_MalaysianRinggit.Checked = false;
 
             //removes text
             txt_Amount.Text = "";
             txt_ConvertedAmount.Text = "";
+        }
+
+        private void txt_ConvertedAmount_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdb_Ringgit_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
